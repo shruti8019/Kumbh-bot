@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 22 15:46:27 2019
 
-@author: Shruti
-"""
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
 from translate import Translator
