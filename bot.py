@@ -4,7 +4,7 @@ sys.path.insert(0,os.getcwd())
 from wit import Wit
 from typing import Any, Dict
 
-client = Wit('Ci5mwK5Ip8uOJ1Kk1ce3QGgFdJMHH4iP')
+client = Wit('<YOUR ZULIP BOT API KEY>')
 import events,emergency,train,weather,lost,playSong,location,news
 class KumbhBot(object):
     def usage(self):
