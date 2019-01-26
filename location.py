@@ -60,7 +60,7 @@ def hotel(bot_handler: Any)->str:
 	while (i < l):
 	    place += current_location[i] + " "
 	    i = i + 1
-	response = requests.get(current_location_url + place + ',+CA&key=AIzaSyAPHKNarbqTsvtUukRBx516p8KyjdCyHAM ')
+	response = requests.get(current_location_url + place + ',+CA&key=your api key ')
 	res1 = response.json()
 	longi = res1["results"][0]["geometry"]["location"]["lat"]
 	lati = res1["results"][0]["geometry"]["location"]["lng"]
