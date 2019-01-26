@@ -10,7 +10,7 @@ import os
 
 def hospital(bot_handler: Any)->str:
 	current_location_url = 'https://maps.googleapis.com/maps/api/geocode/json?address='
-	search_url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyAPHKNarbqTsvtUukRBx516p8KyjdCyHAM &location='
+	search_url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<Your-API-Key> &location='
 	translator= Translator(to_lang="hi")
 	current_location="  Triveni Sangam Allahabad"
 	place = ""
@@ -20,7 +20,7 @@ def hospital(bot_handler: Any)->str:
 	    place += current_location[i] + " "
 	    i = i + 1
 	#print(place)
-	r = requests.get(current_location_url + place + 'Your-API-Key')
+	r = requests.get(current_location_url + place + ',+CA&key=<Your-API-Key>')
 	results = r.json()
 	#print(results)
 	longi = results["results"][0]["geometry"]["location"]["lat"]
@@ -74,7 +74,7 @@ def contacts(bot_handler: Any)->str:
 
 def police(bot_handler: Any)->str:
 	current_location_url = 'https://maps.googleapis.com/maps/api/geocode/json?address='
-	search_url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyDJNoEuLGP2o2PYnRWOx29AvA0kOGQJZO4&location='
+	search_url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<=<Your-API-Key>&location='
 	translator= Translator(to_lang="hi")
 	current_location="  Triveni Sangam Allahabad"
 	place = ""
@@ -84,7 +84,7 @@ def police(bot_handler: Any)->str:
 		place += current_location[i] + " "
 		i = i + 1
 
-	response = requests.get(current_location_url + place + 'Your-API-Key')
+	response = requests.get(current_location_url + place + ',+CA&key=<Your-API-Key>')
 	res1 = response.json()
 
 	longi = res1["results"][0]["geometry"]["location"]["lat"]
