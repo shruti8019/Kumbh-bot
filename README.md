@@ -66,60 +66,12 @@ To deploy Kumbh bot using your local machine as server, follow following steps -
 * Install all required python packages, rum command ```pip3 install -r requirements.txt```
 * Now we are all set, to run bot enter following command ```zulip-run-bot <absolute path to kumbhBot.py file > --config-file <absolute path to downloaded zuliprc file>```
 
-Example Usage - ```zulip-run-bot ~/Projects/KumbhBot/bot/kumbhBot --config-file ~/Projects/JarvisBot/bot/zuliprc```
-* You can now finally use power of Jarvis in your organisation.
+Example Usage - ```zulip-run-bot ~/Projects/KumbhBot/bot/kumbhBot --config-file ~/Projects/KumbhBot/bot/zuliprc```
+* You can now finally use power of KumbhBot in your organisation.
 
 ## Screenshots
 
-<strong> Latest news :</strong> 
-<p align="center">
-  <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/news.png">
-</p>
 
-<strong> Song Lyrics :</strong>
-<p align="center">
-  <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/lyrics.png">
-</p>
-
-<strong> Popular Trending Movies :</strong>
-<p align="center">
-  <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/popularmovies.png">
-</p>
-
-<strong> Popular Trending Shows :</strong>
-<p align="center">
- # <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/popularshows.png">
-</p>
-
-<strong> Movie Search : </strong>
-<p align="center">
-  <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/moviessearch.png">
-</p>
-
-<strong> TODO List : </strong>
-<p align="center">
-  <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/todo.png">
-</p>
-
-<strong> Cricket Scores : </strong>
-<p align="center">
-   <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/cricket.png">
-</p>
-
-<strong> Currency Converter : </strong>
-<p align="center">
- # <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/currency.png">
-</p>
-
-<strong> Dictionary : </strong>
-<p align="center">
-  <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/dictionary.png">
-</p>
-
-<strong> Man Page Of Command : </strong>
-<p align="center">
-  <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/man.png">
-</p>
 
 
 
