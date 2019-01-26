@@ -10,7 +10,7 @@ import os
 
 def hospital(bot_handler: Any)->str:
 	current_location_url = 'https://maps.googleapis.com/maps/api/geocode/json?address='
-	search_url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyAPHKNarbqTsvtUukRBx516p8KyjdCyHAM &location='
+	search_url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<ENTER GOOGLE PLACE API KEY> &location='
 	translator= Translator(to_lang="hi")
 	current_location="  Triveni Sangam Allahabad"
 	place = ""
@@ -150,3 +150,4 @@ def restaurant(bot_handler: Any)->str:
 
 	#translated=translator.translate(ans)
 	return ans
+
