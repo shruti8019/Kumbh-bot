@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jan 26 03:18:13 2019
 
-@author: Shruti
-"""
 
 import sys
 import os
