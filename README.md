@@ -82,10 +82,10 @@ Feel free to send us feedback on [Email](mailto:support@jarvis-bot.tech) or [fil
 ## Contributors
 
 <ul>
-  <li> <a href="https://github.com/mkfeuhrer">Shruti Jagwani</a></li>
-  <li> <a href="https://github.com/avisheksanvas">Harshita Rastogi</a></li>
-  <li> <a href="https://github.com/Abhey">Ria Jain</a></li>
-  <li> <a href="https://github.com/forceawakened">Araish Aftab</a></li>
+  <li> <a href="https://github.com/shruti8019">Shruti Jagwani</a></li>
+  <li> <a href="https://github.com/imharshita07">Harshita Rastogi</a></li>
+  <li> <a href="https://github.com/ria567">Ria Jain</a></li>
+  <li> <a href="https://github.com/araishaftab5">Araish Aftab</a></li>
 </ul>
 
 ## Contribute
