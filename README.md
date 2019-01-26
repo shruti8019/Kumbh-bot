@@ -1,16 +1,13 @@
 # <h1 align="center"> Kumbh - Bot </h1> <br>
 <p align="center">
- # <a href="https://github.com/shruti8019/Kumbh-bot">
-   # <img alt="Check on Zulip Chat" title="Kumbh-Bot" #src="https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/images/JarvisBot.gif" width="550">
- # </a>
+  <a href="https://github.com/shruti8019/Kumbh-bot">
+    <img alt="Check on Zulip Chat" title="Kumbh-Bot" 
+  </a>
 </p>
 <p align="center">
   Bot designed to serve the huge gathering of "THE KUMBH MELA".
 </p>
 
-#[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)]#(https://github.com/mkfeuhrer/JarvisBot)
-#[![GitHub Stars](https://img.shields.io/github/stars/mkfeuhrer/JarvisBot.svg)](https://github.com/mkfeuhrer/JarvisBot) 
-#[![Current Version](https://img.shields.io/badge/version-1.1-green.svg)](https://github.com/mkfeuhrer/JarvisBot)<br>
 
 
 ## Table of Contents
@@ -27,17 +24,9 @@
 
 ## Introduction
 
-#[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-#[![GitHub Stars](https://img.shields.io/github/stars/mkfeuhrer/JarvisBot.svg)](https://github.com/mkfeuhrer/) 
-#[![Current Version](https://img.shields.io/badge/version-1.1-green.svg)](https://github.com/mkfeuhrer/JarvisBot)
-
 Kumbh-Bot is designed to serve the huge gathering of kumbh mela. Built with Python and ZulipChat-Api, Kumbh-Bot is a feature-rich unofficial ZulipChat Bot that is 100% free.
 
-#[Check the medium article](https://medium.com/@mohitfeuhrer/jarvis-a-feature-rich-zulip-chat-bot-ff86d718e878)
 
-<p align="center">
-<img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/images/Zulip.jpg"/>
-</p>
 
 ## Features
 
@@ -84,12 +73,12 @@ Example Usage - ```zulip-run-bot ~/Projects/KumbhBot/bot/kumbhBot --config-file 
 
 <strong> Latest news :</strong> 
 <p align="center">
- # <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/news.png">
+  <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/news.png">
 </p>
 
 <strong> Song Lyrics :</strong>
 <p align="center">
- # <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/lyrics.png">
+  <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/lyrics.png">
 </p>
 
 <strong> Popular Trending Movies :</strong>
@@ -104,7 +93,7 @@ Example Usage - ```zulip-run-bot ~/Projects/KumbhBot/bot/kumbhBot --config-file 
 
 <strong> Movie Search : </strong>
 <p align="center">
- # <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/moviessearch.png">
+  <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/moviessearch.png">
 </p>
 
 <strong> TODO List : </strong>
@@ -114,7 +103,7 @@ Example Usage - ```zulip-run-bot ~/Projects/KumbhBot/bot/kumbhBot --config-file 
 
 <strong> Cricket Scores : </strong>
 <p align="center">
-  # <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/cricket.png">
+   <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/cricket.png">
 </p>
 
 <strong> Currency Converter : </strong>
@@ -124,23 +113,14 @@ Example Usage - ```zulip-run-bot ~/Projects/KumbhBot/bot/kumbhBot --config-file 
 
 <strong> Dictionary : </strong>
 <p align="center">
-  #<img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/dictionary.png">
+  <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/dictionary.png">
 </p>
 
 <strong> Man Page Of Command : </strong>
 <p align="center">
- # <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/man.png">
+  <img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/man.png">
 </p>
 
-<strong> NLP Based Output : </strong>
-<p align="center">
-  #<img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/nlp.png">
-</p>
-
-<strong> Calculator : </strong>
-<p align="center">
-  #<img src = "https://raw.githubusercontent.com/mkfeuhrer/JarvisBot/master/screenshots/calculator.png">
-</p>
 
 
 ## Feedback
