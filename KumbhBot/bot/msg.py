@@ -12,8 +12,8 @@ def sendSMS(bot_handler: Any,*paraargs) -> str:
   
     
     number = paraargs[0][0]
-    app_key = '34010c11-1ef7-46f5-ac6e-09bded3b6433'
-    app_secret = 'g2IFP00lTEaecwovpIouvg=='
+    app_key = '<YOUR API KEY>'
+    app_secret = '<YOUR API SECRET>'
     #we are having a lot of bots so send the number of any bot.
     message ="Message sent by a user from bot 1"
     client = SinchSMS(app_key, app_secret) 
