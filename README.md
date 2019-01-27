@@ -86,9 +86,9 @@ Example Usage - ```zulip-run-bot ~/Projects/KumbhBot/bot/kumbhBot --config-file 
   <img src = "https://github.com/shruti8019/Kumbh-bot/blob/master/KumbhBot/images/weather.png">
 </p>
 
-<strong> PLay Bhajan:</strong>
+<strong> Play Bhajan:</strong>
 <p align="center">
-  <img src = "https://github.com/shruti8019/Kumbh-bot/blob/master/KumbhBot/images/bhajan.png>
+  <img src = "https://github.com/shruti8019/Kumbh-bot/blob/master/KumbhBot/images/bhajan.png">
 </p>
 
 
