@@ -9,7 +9,7 @@ import os
 
 def restaurant(bot_handler: Any)->str:
 	current_location_url = 'https://maps.googleapis.com/maps/api/geocode/json?address='
-	search_url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyDJNoEuLGP2o2PYnRWOx29AvA0kOGQJZO4&location='
+	search_url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<YOUR API KEY>&location='
 	translator= Translator()
 	current_location="  Triveni Sangam Allahabad"
 	place = ""
@@ -18,7 +18,7 @@ def restaurant(bot_handler: Any)->str:
 	while (i < l):
 	    place += current_location[i] + " "
 	    i = i + 1
-	response = requests.get(current_location_url + place + ',+CA&key=AIzaSyAPHKNarbqTsvtUukRBx516p8KyjdCyHAM ')
+	response = requests.get(current_location_url + place + ',+CA&key=<YOUR API KEY> ')
 	res1 = response.json()
 	longi = res1["results"][0]["geometry"]["location"]["lat"]
 	lati = res1["results"][0]["geometry"]["location"]["lng"]
@@ -51,7 +51,7 @@ def restaurant(bot_handler: Any)->str:
 	
 def hotel(bot_handler: Any)->str:
 	current_location_url = 'https://maps.googleapis.com/maps/api/geocode/json?address='
-	search_url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyDJNoEuLGP2o2PYnRWOx29AvA0kOGQJZO4&location='
+	search_url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=<YOUR API KEY>&location='
 	translator= Translator()
 	current_location="  Triveni Sangam Allahabad"
 	place = ""
@@ -60,7 +60,7 @@ def hotel(bot_handler: Any)->str:
 	while (i < l):
 	    place += current_location[i] + " "
 	    i = i + 1
-	response = requests.get(current_location_url + place + ',+CA&key=AIzaSyAPHKNarbqTsvtUukRBx516p8KyjdCyHAM ')
+	response = requests.get(current_location_url + place + ',+CA&key=<YOUR API KEY>')
 	res1 = response.json()
 	longi = res1["results"][0]["geometry"]["location"]["lat"]
 	lati = res1["results"][0]["geometry"]["location"]["lng"]
