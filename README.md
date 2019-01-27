@@ -71,7 +71,25 @@ Example Usage - ```zulip-run-bot ~/Projects/KumbhBot/bot/kumbhBot --config-file 
 
 ## Screenshots
 
+<strong> Hello user!! :</strong>
+<p align="center">
+  <img src = "https://github.com/shruti8019/Kumbh-bot/blob/master/KumbhBot/images/Hello.png">
+</p>
 
+<strong> News :</strong>
+<p align="center">
+  <img src = "https://github.com/shruti8019/Kumbh-bot/blob/master/KumbhBot/images/news.png">
+</p>
+
+<strong> Weather :</strong>
+<p align="center">
+  <img src = "https://github.com/shruti8019/Kumbh-bot/blob/master/KumbhBot/images/weather.png">
+</p>
+
+<strong> PLay Bhajan:</strong>
+<p align="center">
+  <img src = "https://github.com/shruti8019/Kumbh-bot/blob/master/KumbhBot/images/bhajan.png>
+</p>
 
 
 
