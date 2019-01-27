@@ -12,9 +12,9 @@ def send_email(bot_handler,*params)->str:
 	mail=smtplib.SMTP('smtp.gmail.com',587)
 	mail.ehlo()
 	mail.starttls()
-	mail.login('sjagwani31@gmail.com','swiss@cake1234')
-	receiver="ria1000@gmail.com"
-	mail.sendmail('sjagwani31@gmail.com',receiver,message)
+	mail.login('<sender email id>','<sender email id password>')
+	receiver="<receiver email id>"
+	mail.sendmail('sender email id',receiver,message)
 	mail.close()
 	return "Noted dear user!"
 	
